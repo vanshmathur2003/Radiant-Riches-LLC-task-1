@@ -1,47 +1,138 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:sans-serif;
+    font-family: sans-serif;
+    color: #4B5665;
 
 }
 
-.section1Main{
-    border: 1px solid black ;
+.section1Main {
     padding-bottom: 20px;
     font-size: 2vw;
     margin-left: 12%;
     margin-right: 12%;
     font-weight: 100;
+    margin-bottom: 1vw;
 }
-.section1Heading{
+
+.section1Heading {
+    color: #212731;
+    ;
     font-size: 3vw;
-    font-weight: 200;
+    font-weight: 400;
     margin-top: 2.5vw;
     margin-bottom: 2vw;
 }
-.section1Line{
+
+.section1Line {
     color: gray;
-    margin-bottom: 1%;
-    margin-top: 1%;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
 }
 
-.section1part1{
+.section1part1 {
     display: flex;
     justify-content: space-between;
     font-size: 1.25vw;
 }
-.section1part1left{
+
+.section1part1left {
     flex: 60;
     display: flex;
     gap: 30px;
     align-items: center;
 }
-.section1part1right{
+
+.section1part1right {
     display: flex;
     gap: 30px;
     align-items: center;
 }
+
 .section1part1icon {
     padding-left: 3px;
-    vertical-align: middle; 
+    vertical-align: middle;
+}
+
+.section1btn {
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    padding-top: 0.75vw;
+    padding-bottom: 0.75vw;
+    padding-left: 0.6vw;
+    padding-right: 0.6vw;
+}
+
+.section1part2 {
+    margin-top: 2.5vh;
+    margin-left: 2vw;
+    gap: 0.75vw;
+    font-size: 1.25vw;
+    display: flex;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.section1part2icon {
+    margin-top: 2px;
+    height: .75vw;
+
+}
+
+@media (max-width : 950px) {
+    .section1Heading {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:800px) {
+    .section1part1icon {
+        height: 10px;
+        width: 10px;
+    }
+
+    .section1btn {
+        margin-top: 8px;
+        font-size: 10px;
+    }
+    .section1Line-2 {
+        display: none;
+    }
+}
+
+@media (max-width : 670px) {
+    .section1btn {
+        margin-top: 4px;
+        font-size: 10px;
+        padding-left: 0.75vw;
+        padding-right: 0.75vw;
+        margin-left: 2vw;
+    }
+    
+
+}
+
+@media (max-width : 600px) {
+    .section1Heading {
+        font-size: 20px;
+        margin-left: 7.5px;
+    }
+}
+
+@media (max-width : 480px) {
+    .section1part1icon {
+        height: 6px;
+        width: 6px;
+    }
+    .section1btn {
+        margin-top: 4px;
+        font-size: 6px;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+        margin-left: 2vw;
+    }
+
 }

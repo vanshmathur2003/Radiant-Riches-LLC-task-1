@@ -23,16 +23,18 @@ const Section1 = () => {
                         <div>Top Relevent <img className="section1part1icon" src={downarrow} /> </div>
                     </div>
                 </div>
-                <hr className="section1Line" />
-                <div>
-                    <button>Tools</button>
-                    <button>AWS Builder</button>
-                    <button>Start Build</button>
-                    <button> Build Supplies</button>
-                    <button>Tooling</button>
-                    <button>BlueHosting</button>
+                <hr className="section1Line-2" />
+                <div className="section1btngrp">
+                    <button className="section1btn">Tools</button>
+                    <button className="section1btn" >AWS Builder</button>
+                    <button className="section1btn">Start Build</button>
+                    <button className="section1btn"> Build Supplies</button>
+                    <button className="section1btn">Tooling</button>
+                    <button className="section1btn">BlueHosting</button>
                 </div>
-
+                <div className="section1part2">
+                    <p>Home</p><img className="section1part2icon" src={sidearrow} /><p>Hosting for all</p><img className="section1part2icon" src={sidearrow} /><p>Hosting </p><img className="section1part2icon" src={sidearrow} /><p>Hosting 6</p><img className="section1part2icon" src={sidearrow} /><p>Hosting 5</p>
+                </div>
             </div>
         </>
     )
