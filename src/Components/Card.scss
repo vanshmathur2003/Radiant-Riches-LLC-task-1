@@ -2,13 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FBFCFD;
+    margin-bottom: 2vw;
 }
 
 .cardBox {
     height: 18vw;
     width: 70vw;
-    border: 1px solid black;
+    // border: 1px solid black;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -91,5 +91,20 @@
     color: white;
     background-color: #1B88F4;
     border-radius: 10px;
+
+}
+
+.cardBoxNum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    border: 1px solid rgb(216, 216, 216);
+    margin-bottom: 10vw;
+    margin-right: 70vw;
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
 
 }

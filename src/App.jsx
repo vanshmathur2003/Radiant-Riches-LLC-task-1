@@ -8,6 +8,7 @@ function App() {
     <Navbar/>
     <Section1/>
     <Card/>
+    <Card/>
     </>
   )
 }
