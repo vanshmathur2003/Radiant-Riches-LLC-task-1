@@ -1,11 +1,11 @@
-
-import './App.scss'
-
+import Navbar from "./Components/Navbar"
+import Section1 from "./Components/Section1"
 function App() {
 
   return (
     <>
-    <h2 className='pink'>hi</h2>
+    <Navbar/>
+    <Section1/>
     </>
   )
 }

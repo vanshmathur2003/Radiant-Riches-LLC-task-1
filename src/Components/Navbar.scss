@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbarMain {
+    background-color: #212731;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+.navbarContent {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(170, 165, 165);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.navbarContent-searchbar {
+    width: 150px;
+    border-radius: 5px;
+    border:none;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    padding-left:0.50% ;
+}
+
+@media (max-width:600px){
+    .navbarContent-searchbar{
+        display: none;
+    }
+}
