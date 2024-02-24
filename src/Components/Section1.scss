@@ -31,6 +31,8 @@
 }
 
 .section1part1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
     font-size: 1.25vw;
@@ -118,7 +120,7 @@
 @media (max-width : 600px) {
     .section1Heading {
         font-size: 20px;
-        margin-left: 7.5px;
+        margin-left: 8px;
     }
 }
 
