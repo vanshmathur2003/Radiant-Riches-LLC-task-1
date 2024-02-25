@@ -1,33 +1,32 @@
-import "../Components/Card.scss"
+import "../Components/Card1.scss"
 import pcimg from "../assets/icons/download 1.png";
 import bluedownarrow from "../assets/icons/IMAGE (6).png"
 import fivestar from "../assets/icons/IMAGE (5).png";
 import fourpointfivestar from "../assets/icons/IMAGE (3).png";
 import fourstar from "../assets/icons/IMAGE (4).png";
 
-const Card = () => {
+const Card1 = () => {
     return (
         <>
             <div className="cardMain">
                 <div className="cardBoxGood">
                     <div lassName="cardBoxGoodtext" >
-                    🏆 Best Choice
+                    💎 Best Value
                     </div>
                 </div>
                 <div className="cardBoxNum">
-                    1
+                    2
                 </div>
                 <div className="cardBox">
 
                     <div className="cardBoxSection1">
                         <img className="cardBoxSection1img" src={pcimg} />
-                        <div className="cardBoxSection1text">Builder 1</div>
+                        <div className="cardBoxSection1text">Builder 2</div>
                     </div>
                     <div className="cardBoxSection2">
-                        <div className="cardBoxSection2text-1"> <b> WixPro 72-Inch Responsive Website Builder- </b>Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)</div>
+                        <div className="cardBoxSection2text-1"> <b> SiteCraft 68-Inch Ultimate Web Design Studio-</b>Aavanceo sile I Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)</div>
                         <div className="cardBoxSection2text-2"><b>Main highlights</b><br />
-                            What You Get: Receive the WixPro website builder suite, access to premium design templates, an extensive library of
-                            wiagers ana apps, and detallea step-by-step guldes</div>
+                            What You Get: Gain access to the SiteCraft design studio, featuring a robust selection of design elements, SEO optimization tools, and e-commerce integrations.</div>
                         <div className="cardBoxSection2textblue">
                             <div className="cardBoxSection2textbluetxt">Show more </div>
                             <img src={bluedownarrow} alt="" />
@@ -36,9 +35,9 @@ const Card = () => {
                     </div>
                     <div className="cardBoxSection3">
                         <div className="ratingcardBoxSection3">
-                            <div className="ratingcardBoxSection3-1" >9.8</div>
-                            <div className="ratingcardBoxSection3-2" >Exceptional</div>
-                            <div className="ratingcardBoxSection3-3" ><img src={fivestar} alt="" /></div>
+                            <div className="ratingcardBoxSection3-1" >9.5</div>
+                            <div className="ratingcardBoxSection3-2" >Excellent</div>
+                            <div className="ratingcardBoxSection3-3" ><img src={fourpointfivestar} alt="" /></div>
                         </div>
                         <div>
                             <div><button className="btn">View</button></div>
@@ -50,4 +49,4 @@ const Card = () => {
     )
 }
 
-export default Card
+export default Card1

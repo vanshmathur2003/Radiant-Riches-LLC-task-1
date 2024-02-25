@@ -1,27 +1,23 @@
-import "../Components/Card.scss"
+import "../Components/Card2.scss"
 import pcimg from "../assets/icons/download 1.png";
 import bluedownarrow from "../assets/icons/IMAGE (6).png"
 import fivestar from "../assets/icons/IMAGE (5).png";
 import fourpointfivestar from "../assets/icons/IMAGE (3).png";
 import fourstar from "../assets/icons/IMAGE (4).png";
 
-const Card = () => {
+const Card2 = () => {
     return (
         <>
             <div className="cardMain">
-                <div className="cardBoxGood">
-                    <div lassName="cardBoxGoodtext" >
-                    🏆 Best Choice
-                    </div>
-                </div>
+                
                 <div className="cardBoxNum">
-                    1
+                    3
                 </div>
                 <div className="cardBox">
 
                     <div className="cardBoxSection1">
                         <img className="cardBoxSection1img" src={pcimg} />
-                        <div className="cardBoxSection1text">Builder 1</div>
+                        <div className="cardBoxSection1text">Builder 3</div>
                     </div>
                     <div className="cardBoxSection2">
                         <div className="cardBoxSection2text-1"> <b> WixPro 72-Inch Responsive Website Builder- </b>Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)</div>
@@ -36,7 +32,7 @@ const Card = () => {
                     </div>
                     <div className="cardBoxSection3">
                         <div className="ratingcardBoxSection3">
-                            <div className="ratingcardBoxSection3-1" >9.8</div>
+                            <div className="ratingcardBoxSection3-1" >9.3</div>
                             <div className="ratingcardBoxSection3-2" >Exceptional</div>
                             <div className="ratingcardBoxSection3-3" ><img src={fivestar} alt="" /></div>
                         </div>
@@ -50,4 +46,4 @@ const Card = () => {
     )
 }
 
-export default Card
+export default Card2

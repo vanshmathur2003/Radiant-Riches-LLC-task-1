@@ -1,8 +1,8 @@
-.cardMain {
+.card3Main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 4vw;
+    margin-bottom: 14vw;
 }
 
 .cardBox {
@@ -114,6 +114,7 @@
 }
 
 .cardBoxGood {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,6 +135,37 @@
 .cardBoxGoodtext {
     color: rgb(0, 0, 0);
 }
+
+.cardBoxSection2discount {
+    width: 4vw;
+    margin-top: 2%;
+    background-color: rgba(105, 200, 231, 0.597);
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.cardBoxSection2textlist {
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.cardBoxSection2listparent {
+    margin-top: 4px;
+    background-color: #FFF4ED;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.cardBoxSection2list2parent {
+    margin-top: 3px;
+    padding: 2%;
+}
+
+.cardBoxSection2textlist2 {
+    margin-top: 10px;
+}
+
 
 @media (max-width:1300px) {
 
@@ -194,6 +226,9 @@
         margin-bottom: 2.5px;
     }
 
+    .cardBoxSection2discount {
+        display: none;
+    }
 }
 
 @media (max-width:1150px) {
@@ -213,6 +248,7 @@
         margin-top: 3%;
         padding-bottom: 0rem;
     }
+
 }
 
 
@@ -404,6 +440,7 @@
         margin-top: 5x;
         margin-bottom: 2.5px;
     }
+
     .cardBoxGood {
         font-size: 0.40rem;
     }
@@ -475,6 +512,7 @@
     .cardBoxNum {
         font-size: 0.60rem;
     }
+
     .cardBoxGood {
         font-size: 0.25rem;
     }
